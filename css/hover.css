@@ -1,8 +1,8 @@
 .navbar-menu ul li a:hover{
     color: #C49B66; 
 }
-.cssbuttons-io::before,
-.cssbuttons-io::after {
+.cssbuttons-left::before,
+.cssbuttons-left::after {
 background-color: transparent;
  position: absolute;
  top: 0;
@@ -12,7 +12,7 @@ background-color: transparent;
  z-index: 0;
 }
 
-.cssbuttons-io::before {
+.cssbuttons-left::before {
  content: "";
  background: #000;
  width: 120%;
@@ -21,17 +21,17 @@ background-color: transparent;
  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
-.cssbuttons-io:hover::before {
+.cssbuttons-left:hover::before {
  transform: translate3d(100%, 0, 0);
 }
 
-.cssbuttons-io:active {
+.cssbuttons-left:active {
   transform: scale(0.95);}
   /* Button right  */
 .cssbuttons-right::before,
 .cssbuttons-right::after {
-background-color: white;
-color:#C49B66;
+ background-color: white;
+ color:#C49B66;
  position: absolute;
  top: 0;
  left: 0;
@@ -42,7 +42,8 @@ color:#C49B66;
 
 .cssbuttons-right::before {
  content: "";
- background: #000;
+ background: white;
+ color: black;
  width: 120%;
  left: -10%;
  transform: skew(30deg);

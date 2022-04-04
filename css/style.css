@@ -35,32 +35,29 @@ body{
 }
 /* NAVBAR finished */
 #welcome-section{
+    display: flex;
+    justify-content: center;
     margin-top: 100px;
-    border: 1px solid #C49B66;
+    border: 2px solid #C49B66;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 .bg-img{
-    width: 700px;
-    height: 500px;
-    background-image: url('images/bg.jpg');
-    background-repeat: none;
-    background-position: 0px 0px;
+    border:2px solid red;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 .container{
-    border: 2px solid white;
-    width: 500px;
-    display: flex;
-    justify-content: center;
     position: absolute;
     top: 300px;
-    left: 0px;
+    left: 250px;
+    display: flex;
+    justify-content:center;
 }
 .container h1{
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 2px;
     color: blanchedalmond;
 }
@@ -71,27 +68,25 @@ body{
     color: white;
 }
 /* Button section */
-.cssbuttons-io {
+
+/* Button-left */
+.cssbuttons-left {
+    width: 9em;
+    height: 3.2em;
     position: relative;
     font-family: inherit;
-    font-weight: 200;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 17px;
     letter-spacing: 0.05em;
     border-radius: 2em;
     border: 1px solid white;
-    background: linear-gradient(to right, #e9d7c0, #eebb77);
+    background: linear-gradient(to right, #e9d7c0, #f1a540);
     color: ghostwhite;
     overflow: hidden;
     margin-right: 20px;
    }
    
-   .cssbuttons-io svg {
-    width: 1.0em;
-    height: 1.0em;
-    margin-right: 0.5em;
-   }
-   
-   .cssbuttons-io span {
+   .cssbuttons-left span {
     position: relative;
     z-index: 10;
     transition: color 0.4s;
@@ -101,24 +96,19 @@ body{
    }
    /* Button Right  */
    .cssbuttons-right {
+    width: 9em;
+    height: 3.2em;
     position: relative;
     font-family: inherit;
-    font-weight: 200;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 17px;
     letter-spacing: 0.05em;
     border-radius: 2em;
     border: 1px solid white;
-    background: linear-gradient(to right, #e9d7c0, #eebb77);
-    color: ghostwhite;
+    background-color: white;
+    background: linear-gradient(to right, #e9d7c0, #f1a540);
     overflow: hidden;
    }
-   
-   .cssbuttons-right svg {
-    width: 1.2em;
-    height: 1.2em;
-    margin-right: 0.5em;
-   }
-   
    .cssbuttons-right span {
     position: relative;
     z-index: 10;
