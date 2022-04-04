@@ -1,0 +1,14 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:200;
+    background: #000;
+}
+[data-overlay-dark="4"]:before, [data-overlay-light="4"]:before {
+    opacity: 0.4;
+}
+[data-overlay-dark]:before {
+    background: #000;
+}
