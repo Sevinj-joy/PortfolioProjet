@@ -7,23 +7,30 @@
     <!-- css links -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/hover.css">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans:wght@200&family=M+PLUS+2&family=Montserrat:wght@200;300&family=Outfit:wght@300&family=Poppins:wght@200&family=Rubik&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Dancing+Script:wght@600&family=M+PLUS+2&family=Montserrat:wght@200;300&family=Outfit:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Dancing+Script:wght@600&family=Josefin+Sans:wght@200&family=M+PLUS+2&family=Montserrat:wght@200;300&family=Outfit:wght@300&family=Poppins:wght@200&family=Rubik&display=swap" rel="stylesheet">
     <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body style="background:#000;">
 <!-- NAVBAR STARTED -->
-    <nav id =navbar>   
-      <div class="navbar-main-div">
-        <div class="navbar-logo">
+    <nav id ="navbar">   
+      <div class="navbar-main-div mrgn-top" style="background-image: url('images/bg.jpg');
+      " >
+        <div class="navbar-logo mrgn-top mrgn-left">
           <img src="images/logo-light.png">
         </div>
-      <div class="navbar-menu">
+      <div class="navbar-menu mrgn-top">
         <!-- Navbar-Menu started -->
          <ul>
             <li><a href="http://">Home</a></li>
@@ -36,17 +43,32 @@
          <!-- Navbar Menu finished -->
       </div>
       </div>
-       
-     
     </nav>
     <!-- NAVBAR  finished -->
-    <!-- <header class="header bg-image" style="background-image: url('images/bg.jpg'); background-position: 0px 0px;">
-      <div class="container">
-        <div class="row"></div>
-        <div></div>
-      </div>
-      
-    </header> -->
+
+    <!-- Welcome-section STARTED -->
+  <section id="welcome-section" >
+    <div class="bg-img" style="background-image: url('images/bg.jpg') no-repeat;">
+    <div class="container">
+        <div class="row font-joshepin">
+          <h2 >WELCOME!</h2>
+         <div class="full-text font-joshepin">
+            <h1><span>I am</span> </h1>
+         </div>
+         <div class="btn-section">
+          <button class="cssbuttons-io">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z" fill="currentColor"></path></svg> Wiew Work</span>
+          </button>
+          <button class="cssbuttons-right">
+            <span><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z" fill="currentColor"></path></svg> Wiew Work</span>
+          </button>
+         </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+  <!-- Welcome-section finished -->
+
     <!-- javascript links -->
   <script src="js/app.js"></script>  
 </body>

@@ -2,9 +2,8 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 body{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight:200;
-    background: #000;
+    font-family: 'Rubik', sans-serif;
+    font-weight:400;
 }
 [data-overlay-dark="4"]:before, [data-overlay-light="4"]:before {
     opacity: 0.4;
@@ -12,3 +11,116 @@ body{
 [data-overlay-dark]:before {
     background: #000;
 }
+/* NAVBAR started */
+.navbar-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-menu ul{
+    display: flex;
+    padding: 0px;
+    list-style-type:none;
+    transition: all .5s;
+}
+.navbar-menu a{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    color: azure;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin: 20px 5px;
+}
+/* NAVBAR finished */
+#welcome-section{
+    margin-top: 100px;
+}
+.bg-img{
+    background-image: url('images/bg.jpg');
+    background-repeat: none;
+    background-position: 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+/* .bg-img img{
+    width: 750px;
+} */
+.container{
+    border: 2px solid white;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.container h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+}
+.container h2{
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 4px; 
+    color: white;
+}
+/* Button section */
+.cssbuttons-io {
+    position: relative;
+    font-family: inherit;
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    border-radius: 2em;
+    border: 1px solid white;
+    background: linear-gradient(to right, #e9d7c0, #eebb77);
+    color: ghostwhite;
+    overflow: hidden;
+    margin-right: 20px;
+   }
+   
+   .cssbuttons-io svg {
+    width: 1.0em;
+    height: 1.0em;
+    margin-right: 0.5em;
+   }
+   
+   .cssbuttons-io span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8em 1.2em 0.8em 1.05em;
+   }
+   /* Button Right  */
+   .cssbuttons-right {
+    position: relative;
+    font-family: inherit;
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    border-radius: 2em;
+    border: 1px solid white;
+    background: linear-gradient(to right, #e9d7c0, #eebb77);
+    color: ghostwhite;
+    overflow: hidden;
+   }
+   
+   .cssbuttons-right svg {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.5em;
+   }
+   
+   .cssbuttons-right span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8em 1.2em 0.8em 1.05em;
+   }
