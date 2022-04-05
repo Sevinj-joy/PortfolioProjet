@@ -56,3 +56,7 @@ background-color: transparent;
 
 .cssbuttons-right:active {
   transform: scale(0.95);}
+  .left a:hover{
+    color: #161617;
+    text-shadow: 1px 1px #2d2d2e;
+  }

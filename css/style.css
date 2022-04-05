@@ -5,6 +5,9 @@ body{
     font-family: 'Rubik', sans-serif;
     font-weight:400;
 }
+a{
+    text-decoration: none;
+}
 [data-overlay-dark="4"]:before, [data-overlay-light="4"]:before {
     opacity: 0.4;
 }
@@ -43,7 +46,6 @@ body{
     height: 700px;
 }
 .bg-img{
-    border:2px solid red;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -84,8 +86,7 @@ body{
     color: ghostwhite;
     overflow: hidden;
     margin-right: 20px;
-   }
-   
+   } 
    .cssbuttons-left span {
     position: relative;
     z-index: 10;
@@ -117,3 +118,38 @@ body{
     align-items: center;
     padding: 0.8em 1.2em 0.8em 1.05em;
    }
+   /*  ABOUT section started */
+   #about{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid white;
+   }
+.about-main-three{
+    width: 100vh;
+    height: 530px;
+ 
+}
+.left-text{
+    width: 350px;
+    height: 520px;
+}
+.left a{
+    text-decoration: none;
+    color: #242424;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: inherit;
+    transition: all .4s;
+}
+.middle img{
+    width: 350px;
+    height: 520px; 
+}
+.right{
+    width: 350px;
+    height: 520px;
+}
+
+
+   /*  ABOUT section finished */
