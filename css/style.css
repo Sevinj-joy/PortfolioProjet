@@ -133,17 +133,8 @@ a{
     width: 400px;
     height: 520px;
 }
-.left-text{
-    margin-top: 200px;
-    align-items: flex-end;
-}
-.left-text span{
-    color: white;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 10px;
-}
-.left a{
+
+.left h4 a{
     text-decoration: none;
     color: #242424;
     font-size: 70px;
@@ -151,6 +142,27 @@ a{
     letter-spacing: 2px;
     font-family: inherit;
     transition: all .4s;
+}
+.skill-item h6{
+    color: azure;
+}
+.skill-progress{
+    width: 100%;
+    height: 8px;
+    background-color: #333;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+ .skill-progress .progress{
+    height: 100%;
+    border-radius: .25rem;
+    position: absolute;
+    font-size: .75rem;
+    top: 0;
+    left: 0;
+    transition: all 1.5s;
 }
 .middle img{
     width: 420px;
