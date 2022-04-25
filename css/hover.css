@@ -49,11 +49,9 @@ background-color: transparent;
  transform: skew(30deg);
  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
-
 .cssbuttons-right:hover::before {
  transform: translate3d(100%, 0, 0);
 }
-
 .cssbuttons-right:active {
   transform: scale(0.95);}
   .left a:hover{

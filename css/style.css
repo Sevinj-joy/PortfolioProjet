@@ -219,8 +219,7 @@ a{
     background-color: #c49c64;
     color: beige;
     font-size: 30px;
-    font-weight: 600;
-    /* margin-bottom: 40px; */
+    font-weight: 600;   
     padding: 6px 10px;
     letter-spacing: 4px;
 }
