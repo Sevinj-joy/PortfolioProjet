@@ -68,3 +68,7 @@ background-color: transparent;
   color: #161617;
   text-shadow: 1px 1px #2d2d2e;
 }
+.icon-backround:hover{
+  background-color: #C49B66;
+  color: white;
+}
