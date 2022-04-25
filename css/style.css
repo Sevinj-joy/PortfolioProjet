@@ -265,3 +265,37 @@ justify-content: center;
     transition: all .4s;
 }
 /* Services div Finished */
+.four-marketing-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.items{
+    width: 250px;
+    height:310px;
+    background-color: #0a0a0c;
+    border: 2px solid green;
+}
+.icon-backround{
+   background-color: rgb(83, 78, 78);
+   transform: rotateY(45deg);
+   transform-style: preserve-3d;
+   border-radius: 30px;
+   border: 2px solid yellow;
+   width: 90px;
+   height: 90px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+.icon-backround i{
+    line-height: 2rem;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #c49b66;
+}
+.items-parametrs{
+    border: 2px solid pink;
+    display: block;
+    align-items: center;
+    color: white;
+}
