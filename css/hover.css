@@ -63,3 +63,8 @@ background-color: transparent;
 .social a:hover{
   color: #C49B66;
 }
+/* Service text hover */
+.service a:hover{
+  color: #161617;
+  text-shadow: 1px 1px #2d2d2e;
+}

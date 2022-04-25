@@ -41,7 +41,6 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    width: 100%;
     height: 700px;
 }
 .font-joshepin h2{
@@ -87,7 +86,6 @@ a{
 .full-text h1{
     font-size: 4rem;
     font-weight: 900;
-    line-height: 100%;
 
 }
 /* Button section */
@@ -147,12 +145,12 @@ a{
 
    }
 .about-main-three{
-    width: 100vh;
+    width: 100%;
     height: 530px;
 }
 .left{
     padding-top: 50px;
-    width: 400px;
+    width: 350px;
     height: 520px;
 }
 
@@ -177,7 +175,7 @@ a{
     margin-bottom: 40px;
 }
 
- .skill-progress .progress{
+.skill-progress .progress{
     height: 100%;
     border-radius: .25rem;
     position: absolute;
@@ -200,7 +198,7 @@ a{
 }
 /* Right div started */
 .right{
-    width: 400px;
+    width: 350px;
     height: 520px;
 }
 .whoAmI{
@@ -250,5 +248,20 @@ a{
     transition: all .4s;
 }
 /* Right div completed */
+/*ABOUT section completed */
 
-   /*  ABOUT section completed */
+/* Services div Started */
+.service{
+display: flex;
+justify-content: center;
+}
+.service a{
+    text-decoration: none;
+    color: #242424;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: inherit;
+    transition: all .4s;
+}
+/* Services div Finished */
