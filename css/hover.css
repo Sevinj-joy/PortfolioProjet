@@ -67,8 +67,8 @@ background-color: transparent;
   text-shadow: 1px 1px #2d2d2e;
 }
 .icon-backround:hover{
-  background-color: #C49B66;
+  background-color: #d89947;
   transform: rotate(90deg);
   transition: all 4.s;
-  color: white;
+  color: #eeeee4;
 }
