@@ -68,5 +68,7 @@ background-color: transparent;
 }
 .icon-backround:hover{
   background-color: #C49B66;
+  transform: rotate(90deg);
+  transition: all 4.s;
   color: white;
 }
