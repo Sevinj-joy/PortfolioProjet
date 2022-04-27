@@ -71,3 +71,11 @@ background-color: transparent;
   transform: rotate(90deg);
   transition: all 4.s;
 }
+.little-navbar ul a:hover{
+  transition:ease 4.s;
+  width: 110px;
+  height: 55px;
+  border-radius: 20px;
+  background-color:#be712a;
+  font-size:x-large;
+}

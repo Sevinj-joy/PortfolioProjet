@@ -19,7 +19,7 @@ a{
 /* NAVBAR started */
 
 .navbar-main-div{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
@@ -28,7 +28,14 @@ a{
     position: sticky;
     top: 0;
     z-index: 1000000;
+    overflow: hidden;
+    background-color: #333;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 .navbar-main-div .sticky{
     padding: 5px 100px;
     background-color: #fff;
@@ -274,6 +281,7 @@ a{
 .service{
 display: flex;
 justify-content: center;
+margin-bottom: 50px;
 }
 .service a{
     text-decoration: none;
@@ -297,6 +305,12 @@ justify-content: center;
     justify-content: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+.items-parametrs h6{
+    margin-left: 80px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
 .icon-backround{
    background-color: #131315;
    transform: rotate(45deg);
@@ -305,7 +319,7 @@ justify-content: center;
    height: 90px;
    display: flex;
    justify-content: center;
-   margin: 80px 80px;
+   margin: 80px 80px 40px;
 }
 .items-parametrs p{
     color: #76828a;
@@ -321,4 +335,48 @@ justify-content: center;
     display: block;
     align-items: center;
     color: white;
+}
+/* .sticky{
+    background-color: #e9d7c0;
+    width: 100%;
+    height: 70px;
+} */
+.little-navbar ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+letter-spacing: 1px;
+font-weight: 600;
+font-size: 20px;
+text-transform: uppercase;
+cursor: pointer;
+padding: 9px 30px;
+border-radius: 30px;
+margin-bottom: 70px;
+}
+.little-navbar ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+
+    color: white;
+}
+.little-navbar ul li {
+    margin: 20px 20px;
+}
+.photograpy-section-part1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photograpy-section-part2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photograpy-section-part2 img{
+    margin-right: 20px;
 }
