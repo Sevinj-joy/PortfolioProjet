@@ -6,7 +6,6 @@ window.setInterval(function(){ // 4
     if(currentWord > words.length) currentWord = 0; // 6
     element.textContent = words[currentWord]; // 7
  }, 2000); // -- 4 
-
 // setTimeout(function(){element.innerHTML+="Sevinc"},4000);
 
 // window.addEventListener("scroll",function(){
