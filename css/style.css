@@ -386,8 +386,31 @@ margin-bottom: 70px;
     justify-content: space-evenly;
     align-items: center;
 }
+.items-tree{
+    position:static;
+}
 .items-tree img{
     width: 345px;
     height: 309px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.line{
+    width: 100px;
+    height: 0px;
+    border-bottom: 1px solid white;
+    display:block;
+}
+
+.transbox{
+    position: absolute;
+    top: 50;
+    left: 0;
+}
+.transbox span{
+    font-size: 10px;
+}
+.transbox h6{
+    font-size: 15px;
+    line-height: 1.em;
+    margin-top: 20px;
 }
