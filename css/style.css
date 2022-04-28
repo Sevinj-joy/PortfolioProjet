@@ -347,16 +347,18 @@ letter-spacing: 1px;
 font-weight: 600;
 font-size: 20px;
 text-transform: uppercase;
-transition: all 3.s;
 cursor: pointer;
 padding: 9px 30px;
 border-radius: 30px;
 margin-bottom: 70px;
+border: 2px solid yellow;
+transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
 }
 .little-navbar ul li a{
     text-decoration: none;
     padding: 10px 15px;
     color: white;
+    border: 2px solid green;  
 }
 .little-navbar ul li {
     margin: 20px 20px;
@@ -393,7 +395,6 @@ margin-bottom: 70px;
 .items-tree img{
     width: 345px;
     height: 309px;
-    border: 2px solid red;
     opacity: 0.7;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
@@ -409,7 +410,6 @@ margin-bottom: 70px;
     height: 200px;
     top: 150px;
     right: 0;
-    border: 2px solid blue;
 }
 .transbox span{
     font-size: 10px;
@@ -417,8 +417,9 @@ margin-bottom: 70px;
 .transbox h6{
     font-size: 15px;
     line-height: 1.em;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 .transbox .block-text{
     display: none;
+
 }

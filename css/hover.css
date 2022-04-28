@@ -79,7 +79,10 @@ background-color: transparent;
   background-color:#be712a;
   font-size:x-large;
 }
+.transbox:hover{
+  margin-top: 0;
+}
 .transbox:hover .block-text {
-  top: 200;
   display: block;
+  transition: all .4s;
 }
