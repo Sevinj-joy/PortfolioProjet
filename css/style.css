@@ -66,6 +66,7 @@ a{
 }
 /* NAVBAR finished */
 #welcome-section{
+    position: inherit;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -279,7 +280,6 @@ a{
 .service{
 display: flex;
 justify-content: center;
-margin-bottom: 50px;
 }
 .service a{
     text-decoration: none;
@@ -421,5 +421,39 @@ transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
 }
 .transbox .block-text{
     display: none;
-
 }
+/* CONTACT US */
+.contact-us{
+    background-color: #161617;
+    width: 100%;
+    
+}
+.contact-section{
+    height: 500px;
+    background-color: #161617;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-contact{
+    padding-left: 50px;
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    border: 2px solid salmon;
+    width: 480px;
+    height: 400px;
+}
+.left-contact img{
+    width: 100%;
+    object-fit: cover;
+}
+.contact-text{
+    position: absolute;
+    top: 50px;
+}
+.contact-text h5{
+    color: #bdaf9d;
+}
+
