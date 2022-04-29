@@ -73,6 +73,7 @@ background-color: transparent;
   transform: rotate(90deg);
   transition: all .4s;
 }
+
 .little-navbar ul li a:hover{
   transition:all .4s;
   width: 150px;
@@ -86,5 +87,10 @@ background-color: transparent;
 }
 .transbox:hover .block-text {
   display: block;
+  transition: all .4s;
+}
+.icon-little-backround:hover{
+  background-color: #d89947;
+  transform: rotate(90deg);
   transition: all .4s;
 }

@@ -477,7 +477,6 @@ margin-bottom: 70px;
     height: 43px;
     border: none;
     background-color: #c49b66;
-    position: relative;
     font-family: inherit;
     font-weight: bold;
     font-size: 17px;
@@ -487,4 +486,55 @@ margin-bottom: 70px;
     overflow: hidden;
     margin-top: 30px;
 }
-
+.contact-icon-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-logo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.icon a i{
+    font-size: 20px;
+    padding:0px 0px;
+}
+.reserved{
+    font-size: 14px;
+    color: #76828a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+/* COPY */
+.icon-little-backround{
+    background-color: #131315;
+    transform: rotate(45deg);
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+   
+ }
+ .icon-little-backround i{
+     position: static;
+     line-height: 1.7rem;
+     font-size: 15px;
+     margin-top: 30px;
+     padding-right:10px;
+     color: #c49b66;
+     margin: 10px 10px 5px;
+    
+ }
