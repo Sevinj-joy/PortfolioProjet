@@ -419,19 +419,19 @@ margin-bottom: 70px;
 .contact-section{
     height: 500px;
     background-color: #161617;
-    border: 2px solid green;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    border: 2px solid blueviolet;
 }
 .left-contact{
     padding-left: 50px;
     position: relative;
     margin-top: 60px;
     display: flex;
-    border: 2px solid salmon;
     width: 500px;
     height: 400px;
+    border: 2px solid yellow;
 }
 .left-contact img{
     width: 100%;
@@ -444,4 +444,27 @@ margin-bottom: 70px;
 .contact-text h5{
     color: #bdaf9d;
 }
+/* RIGHT CONTACT  */
+.right-contact{
+    padding-top: 100px;
+    width: 700px;
+    height: 500px;
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: center;
+}
+.name-email input{
+    border-radius: 20px;
+    width: 310px;
+    height: 53px;
+    background-color:#222222;
+    border: none;
+    color: #60625c;
+    padding-left: 10px;
+}
+.name-email input:nth-child(1){
+   margin-right: 30px;
+
+}
+
 
