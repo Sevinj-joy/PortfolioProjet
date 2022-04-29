@@ -19,9 +19,7 @@ a{
 /* NAVBAR started */
 
 .navbar-main-div{
-    position: absolute;
-    top: 0;
-    left: 0;
+    transition: top 0.3s;
     display: flex;
     justify-content: space-between;
     border: 2px solid palegreen;
@@ -35,7 +33,7 @@ a{
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
 .navbar-main-div .sticky{
     padding: 5px 100px;
     background-color: #fff;
@@ -167,7 +165,7 @@ a{
     align-items: center;
     padding: 0.8em 1.2em 0.8em 1.05em;
    }
-   /*  ABOUT section started */
+ /*  ABOUT section started */
    #about{
     margin-top: 100px;
     display: flex;
@@ -222,7 +220,7 @@ a{
 }
 .middle img{
     width: 420px;
-    height: 520px; 
+    height: 560px; 
 }
 /* Right div started */
 .right{
@@ -334,34 +332,25 @@ justify-content: center;
     align-items: center;
     color: white;
 }
-/* .sticky{
-    background-color: #e9d7c0;
-    width: 100%;
-    height: 70px;
-} */
 .little-navbar ul{
 list-style-type: none;
 display: flex;
 justify-content: center;
 letter-spacing: 1px;
-font-weight: 600;
-font-size: 20px;
+font-weight: 500;
+font-size: 17px;
 text-transform: uppercase;
 cursor: pointer;
-padding: 9px 30px;
-border-radius: 30px;
 margin-bottom: 70px;
-border: 2px solid yellow;
-transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
 }
 .little-navbar ul li a{
     text-decoration: none;
     padding: 10px 15px;
     color: white;
-    border: 2px solid green;  
 }
 .little-navbar ul li {
     margin: 20px 20px;
+    transition: all .4s;
 }
 .photograpy-section-part1{
     display: flex;
@@ -425,8 +414,7 @@ transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
 /* CONTACT US */
 .contact-us{
     background-color: #161617;
-    width: 100%;
-    
+    width: 100%; 
 }
 .contact-section{
     height: 500px;
@@ -442,7 +430,7 @@ transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
     margin-top: 60px;
     display: flex;
     border: 2px solid salmon;
-    width: 480px;
+    width: 500px;
     height: 400px;
 }
 .left-contact img{

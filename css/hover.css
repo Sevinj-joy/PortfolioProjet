@@ -1,6 +1,9 @@
 .navbar-menu ul li a:hover{
     color: #C49B66; 
 }
+.navbar-main-div:hover{
+  background-color: antiquewhite;
+}
 .cssbuttons-left::before,
 .cssbuttons-left::after {
 background-color: transparent;
@@ -69,14 +72,14 @@ background-color: transparent;
 .icon-backround:hover{
   background-color: #d89947;
   transform: rotate(90deg);
-  transition: all 4.s;
+  transition: all .4s;
 }
-.little-navbar ul a:hover{
-  transition:ease 4.s;
-  width: 110px;
-  height: 55px;
-  border-radius: 20px;
-  background-color:#be712a;
+.little-navbar ul li a:hover{
+  transition:all .4s;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background-color:#eb9240;
   font-size:x-large;
 }
 .transbox:hover{
