@@ -431,7 +431,6 @@ margin-bottom: 70px;
     display: flex;
     width: 500px;
     height: 400px;
-    border: 2px solid yellow;
 }
 .left-contact img{
     width: 100%;
@@ -449,7 +448,6 @@ margin-bottom: 70px;
     padding-top: 100px;
     width: 700px;
     height: 500px;
-    border: 2px solid greenyellow;
     display: flex;
     justify-content: center;
 }
@@ -488,7 +486,5 @@ margin-bottom: 70px;
     color: ghostwhite;
     overflow: hidden;
     margin-top: 30px;
-    object-position: 100% 10%;
-
 }
 

@@ -42,7 +42,6 @@ background-color: transparent;
  height: 100%;
  z-index: 0;
 }
-
 .cssbuttons-right::before {
  content: "";
  background: white;
