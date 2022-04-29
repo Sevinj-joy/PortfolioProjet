@@ -37,3 +37,10 @@ margin-bottom: 100px;
 .clr-orng{
     color: #c49b66;
 }
+.input-common-class{
+    background-color:#222222;
+    border: none;
+    color: #60625c;
+    padding-left: 10px;
+    border-radius: 40px;
+}

@@ -453,18 +453,42 @@ margin-bottom: 70px;
     display: flex;
     justify-content: center;
 }
-.name-email input{
-    border-radius: 20px;
+.register{
+ padding-left: 20px;
+}
+.register input{
     width: 310px;
     height: 53px;
-    background-color:#222222;
+}
+.register input:nth-child(1){
+   margin-right: 20px;
+}
+.register input:nth-child(3){
+    margin-top: 15px;
+    width: 650px;
+    height: 53px;
+}
+.register input:nth-child(4){
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 650px;
+    height: 160px;
+}
+.send-message{
+    width: 168px;
+    height: 43px;
     border: none;
-    color: #60625c;
-    padding-left: 10px;
-}
-.name-email input:nth-child(1){
-   margin-right: 30px;
+    background-color: #c49b66;
+    position: relative;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.05em;
+    border-radius: 2em;
+    color: ghostwhite;
+    overflow: hidden;
+    margin-top: 30px;
+    object-position: 100% 10%;
 
 }
-
 
