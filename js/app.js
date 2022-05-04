@@ -8,15 +8,12 @@ window.setInterval(function(){ // 4
  }, 2000); // -- 4 
 
 //  SCroll up and down
-window.onscroll  =function(){myFunction()
-};
-let navbar= document.getElementsByClassName("navbar-main-div");
-let sticky = navbar.offsetTop;
+window.onscroll = function() {scrollFunction()};
 
-function myFunction(){
-    if(window.pageYOffset >=sticky){
-        navbar.classList.add("sticky");
-    }else{
-        navbar.classList.remove("sticky");
-    }
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementsByClassName("navbar-main-div").style.top = "0";
+  } else {
+    document.getElementsByClassName("navbar-main-div").style.top = "-50px";
+  }
 }
