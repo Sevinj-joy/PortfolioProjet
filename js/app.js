@@ -8,3 +8,15 @@ window.setInterval(function(){ // 4
  }, 2000); // -- 4 
 
 //  SCroll up and down
+window.onscroll  =function(){myFunction()
+};
+let navbar= document.getElementsByClassName("navbar-main-div");
+let sticky = navbar.offsetTop;
+
+function myFunction(){
+    if(window.pageYOffset >=sticky){
+        navbar.classList.add("sticky");
+    }else{
+        navbar.classList.remove("sticky");
+    }
+}
