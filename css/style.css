@@ -52,7 +52,7 @@ a{
     margin: 20px 5px;
 }
 /* NAVBAR finished */
-#welcome-section{
+#home{
     position: inherit;
     width: 100%;
     display: flex;
@@ -189,7 +189,6 @@ a{
     position: relative;
     margin-bottom: 40px;
 }
-
 .skill-progress .progress{
     height: 100%;
     border-radius: .25rem;
@@ -267,6 +266,7 @@ a{
 .service{
 display: flex;
 justify-content: center;
+margin-top: 80px;
 }
 .service a{
     text-decoration: none;
@@ -281,6 +281,7 @@ justify-content: center;
 .four-marketing-items{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 60px;
 }
 .items{
     width: 270px;
@@ -402,7 +403,7 @@ margin-bottom: 70px;
 }
 /* CONTACT US */
 .contact-us{
-    border: 2px solid pink;
+    padding-top: 70px;
     background-color: #161617;
     width: 100%; 
 }
