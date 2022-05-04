@@ -17,29 +17,18 @@ a{
     background: #000;
 }
 /* NAVBAR started */
-
-.navbar-main-div{
-    transition: top 0.3s;
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid palegreen;
-    position: sticky;
-    top: 0;
-    z-index: 1000000;
-    overflow: hidden;
-    background-color: #333;
-}
-.sticky {
+#navbar{
     position: fixed;
     top: 0;
     width: 100%;
 }
-.navbar-main-div .sticky{
-    padding: 5px 100px;
-    background-color: #fff;
-}
-.navbar-main-div .sticky ul li a{
-    color: #000;
+.navbar-main-div{
+    transition: top 0.3s;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000000;
+    overflow: hidden;
+    background-color: #333;
 }
 .navbar-menu ul{
     position: relative;
