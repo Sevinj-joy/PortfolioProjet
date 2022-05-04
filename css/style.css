@@ -413,6 +413,7 @@ margin-bottom: 70px;
 }
 /* CONTACT US */
 .contact-us{
+    border: 2px solid pink;
     background-color: #161617;
     width: 100%; 
 }
@@ -422,7 +423,6 @@ margin-bottom: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid blueviolet;
 }
 .left-contact{
     padding-left: 50px;
