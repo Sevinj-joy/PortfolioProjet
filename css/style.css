@@ -57,7 +57,6 @@ a{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
     height: 100vh;
     background-image: url('images/bg.jpg');
     background-size: cover;
@@ -505,6 +504,7 @@ margin-bottom: 70px;
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    margin-top: 30px;
 }
 /* COPY */
 .icon-little-backround{
@@ -516,7 +516,7 @@ margin-bottom: 70px;
     display: flex;
     justify-content: center;
     margin-right: 25px;
-   
+
  }
  .icon-little-backround i{
      position: static;
