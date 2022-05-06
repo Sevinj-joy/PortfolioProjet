@@ -9,17 +9,7 @@ h1,h2,h3,h4,h5,h6{
     clear: both;
     display: table;
   }
-  
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }  
 body{
-    width: 100%;
     font-family: 'Rubik', sans-serif;
     font-weight:400;
     box-sizing: border-box;
