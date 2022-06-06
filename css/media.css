@@ -1,5 +1,10 @@
-/* @media (max-width:500px){
+@media (max-width:500px){
     body{
-        width: 800px;
+    width: 500px;
     }
-} */
+
+   #navbar{
+    width: 500px;
+    font-size: smaller;
+   }
+}
