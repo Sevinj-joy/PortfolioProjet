@@ -6,7 +6,7 @@
 }
 .cssbuttons-left::before,
 .cssbuttons-left::after {
-background-color: transparent;
+ background-color: transparent;
  position: absolute;
  top: 0;
  left: 0;
