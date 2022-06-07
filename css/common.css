@@ -46,6 +46,9 @@ margin-bottom: 100px;
 .clr-orng{
     color: #c49b66;
 }
+.bckrnd-color{
+    background-color: #222222;
+}
 .input-common-class{
     background-color:#222222;
     border: none;
