@@ -1,6 +1,12 @@
-@media (max-width:500px){
+/* $desktop:1200px; col-xl
+$laptop:992px; col-lg
+$tablet:768px; md
+$phone:480px; sm */
+
+@media screen and (max-width:1200px) and (min-width:768px){
     body{
     width: 500px;
+    background-color:white;
     }
 
    #navbar{
