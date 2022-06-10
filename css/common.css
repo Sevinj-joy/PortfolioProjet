@@ -19,9 +19,6 @@
 .mrg-btm100{
     margin-bottom: 100px;
 }
-.mrg-top100{
-margin-bottom: 100px;
-}
 .mrg-top150{
     margin-top: 150px;
 }
@@ -58,4 +55,7 @@ margin-bottom: 100px;
     color: #60625c;
     padding-left: 10px;
     border-radius: 40px;
+}
+.bolder{
+    font-weight: bolder;
 }
