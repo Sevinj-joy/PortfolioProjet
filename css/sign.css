@@ -20,6 +20,11 @@
   }
   #login{
     width: 500px;
-    height: 550px;
+    height: 450px;
     background-color: white;
+    border-radius: 20px 30px 20px 30px;
   }
+.center{
+  display: flex;
+  justify-content: center;
+}
