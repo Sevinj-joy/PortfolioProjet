@@ -4,9 +4,15 @@ from django import render
 from . import views
 
 def home (request):
-    return render(request,'index.html')
+    return render(request, 'index.html')
 
 def signup(request):
+    if request.method == "POST":
+        username = request.POST['username']
+        fname = request.POST['fname']
+        lname =request.POST['lname']
+        email= request.POST['email']
+
     return render(request, 'authentication/sign.html')
 
 def signin(request):
